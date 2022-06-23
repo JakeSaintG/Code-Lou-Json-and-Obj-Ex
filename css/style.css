@@ -101,18 +101,25 @@ label {
     display: none;
 }
 
-footer {
-    margin-top: auto; /* Make footer stick to bottom */
-    background-color: #D81B60;
-    padding: 0.75rem 0;
-    color: white;
-    font-weight: bolder;
+button {
+    background: #656565;
+    background-image: linear-gradient(to bottom, #656565, #2f2e2e);
+    color: #ffffff;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    margin: 1rem auto 0 auto;
+}
+
+button:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
 }
 
 #cartoon-tiles {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 10px;
+    grid-gap: 1rem;
     margin: 1rem;
 }
 
@@ -166,6 +173,14 @@ footer {
     padding: 5px 0;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
+}
+
+footer {
+    margin-top: auto; /* Make footer stick to bottom */
+    background-color: #D81B60;
+    padding: 0.75rem 0;
+    color: white;
+    font-weight: bolder;
 }
 
 @media (min-width: 769px) {
