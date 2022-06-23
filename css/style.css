@@ -22,7 +22,7 @@ header {
     padding: 0.75rem 0;
 }
 
-header * {
+header > * {
     margin: auto 10px;
     text-align: center;
 }
