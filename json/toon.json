@@ -1,0 +1,65 @@
+{
+  "cartoons": [
+    { 
+        "name": "Edd",
+        "img": "/img/edd.jpg",
+        "source": "CN General",
+        "show": ["Ed, Edd, n Eddy"],
+        "rating": "TV-G"
+    },
+    { 
+        "name": "Goku",
+        "img": "https://pbs.twimg.com/profile_images/1366466342354751491/JyhZpbtu_400x400.jpg",
+        "source": "Toonami",
+        "show": [
+            "Dragon Ball",
+            "Dragon Ball Z", 
+            "Dragon Ball Super",
+            "Dragon Ball GT"
+        ],
+        "rating": "TV-PG"
+    },
+    { 
+        "name": "Meatwad",
+        "img": "https://i1.sndcdn.com/avatars-zYnLPkDfUA4rB4yt-8zyUyA-t500x500.jpg",
+        "source": "Adult Swim",
+        "show": ["Aqua Teen Hunger Force"],
+        "rating": "TV-MA"
+    },
+    { 
+        "name": "Dexter",
+        "img": "https://www.nrm.org/wp2016/wp-content/uploads/2017/02/DEXTER-FROM-DEXTERS-LABORATORY-sm.png",
+        "source": "CN General",
+        "show": ["Dexter's Laboratory"],
+        "rating": "TV-PG"
+    },
+    { 
+        "name": "Ben",
+        "img": "https://play-lh.googleusercontent.com/XJvw9I1Jrv29vDWWsbooXOgufcY31xMLEJwv62_6Hix2F2rnDU73c1CzvW4eiGU1U_vGqU7ELecR3Ccj-vY",
+        "source": "CN General",
+        "show": ["Ben 10", "Ben 10: Alien Force", "Ben 10: Ultimate Alien", "Ben 10: Omniverse", " Ben 10 (2016 TV)", "Ben 10 (live-action)", "Gwen 10" ],
+        "rating": "TV-Y7"
+    },
+    { 
+        "name": "Space Ghost",
+        "img": "https://images.saymedia-content.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:eco%2Cw_1200/MTc0NDkxNTYzMDUxNzIyMDg4/history-of-hanna-barbera-space-ghost-dino-boy.jpg",
+        "source": "Miguzi",
+        "show": ["Space Ghost", "Space Ghost: Coast to Coast"],
+        "rating": "TV-MA"
+    },
+    { 
+        "name": "Jack",
+        "img": "./img/jack.jpg",
+        "source": "Toonami",
+        "show": ["Samuri Jack"],
+        "rating": "TV-14"
+    },
+    { 
+        "name": "Jeremy",
+        "img": "./img/jeremy.jpg",
+        "source": "Miguzi",
+        "show": ["Code Lyoko"],
+        "rating": "TV-Y7"
+    }
+  ]
+}
