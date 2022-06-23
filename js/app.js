@@ -23,6 +23,7 @@ function toonsHandler() {
 }
 
 printToons = (data) => {
+    // console.log(data);
     data.cartoons.forEach(e => {
         newDiv = document.createElement('div');
         newDiv.classList.add('tile');
@@ -38,7 +39,7 @@ printToons = (data) => {
         </div>
         `;
         document.getElementById('cartoon-tiles').appendChild(newDiv);
-        console.log(e.name);
+        // console.log(e.name);
     });
     
     // Also works:
