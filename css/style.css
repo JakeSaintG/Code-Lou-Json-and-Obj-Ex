@@ -43,6 +43,10 @@ nav p {
     padding: 10px 0;
 }
 
+a {
+    color: white;
+    text-decoration: none; 
+}
 
 h1 {
     color: white;
