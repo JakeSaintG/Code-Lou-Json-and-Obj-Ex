@@ -6,7 +6,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-color: rgb(47, 55, 63);
+    background-color: rgb(69, 77, 85);
     margin: 0;
     text-align: center;
     height: 100vh;
@@ -33,8 +33,8 @@ nav {
     position: relative;
     animation-duration: 0.5s;
     display: none;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    /* justify-content: space-around; */
     margin: 0;
 }
 
@@ -95,6 +95,10 @@ label {
 
 #nav-hamburger {
     display: none; /* Hide checkbox but still allow label to interact with it */
+}
+
+.cn {
+    display: none;
 }
 
 footer {
@@ -168,7 +172,6 @@ footer {
     #cartoon-tiles {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        /* grid-gap: 10px; */
     }
 
     .bio {
@@ -178,8 +181,25 @@ footer {
     }
 }
 
-
 @media (min-width: 1025px) {
+    .cn {
+        display: flex;
+    }
+    
+    h1 {
+        display: none;
+    }
+
+    label {
+        display: none;
+    }
+
+    nav {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
     #cartoon-tiles {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -190,7 +210,7 @@ footer {
 @keyframes slide-down {
     0% {
         left:0px;
-        top:-70px;
+        top:-250px;
         z-index: -1;
     }
 
@@ -218,7 +238,7 @@ footer {
 
     100% {
         left: 0px; 
-        top: -70px;
+        top: -250px;
         z-index: -1;
     }
 }
