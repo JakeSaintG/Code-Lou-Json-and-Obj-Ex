@@ -2,7 +2,7 @@
   "cartoons": [
     {
       "name": "Edd",
-      "img": "/img/edd.jpg",
+      "img": "./img/edd.jpg",
       "source": "CN General",
       "show": ["Ed, Edd, n Eddy"],
       "rating": "TV-G"
