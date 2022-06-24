@@ -47,10 +47,3 @@ printToons = (data) => {
   //     console.log(employee.name);
   // };
 };
-
-
-let test = "breakpoint?"
-test = "break"
-test = "break--point????"
-test = "point"
-test = "breakpoint!"
